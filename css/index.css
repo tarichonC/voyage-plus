@@ -1,0 +1,160 @@
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    background-image: url(../img/main-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 180px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+
+/* STEPS */
+
+#steps {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps ul {
+    margin: 80px auto;
+    text-align: center;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#steps ul li {
+    width: 300px;
+    display: inline-block;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url(../img/planifier_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+#step-2 {
+    background: url(../img/organiser_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#step-3 {
+    background: url(../img/voyager_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+/* POSSIBILITIES */
+
+#possibilities {
+    background-color: #efefef;
+    text-align: center;
+}
+
+#possibilities article:first-child {
+    margin-top: 20px;
+}
+
+#possibilities article:nth-child(2) {
+}
+
+#possibilities article {
+    width: 267px;
+    height: 165px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 20px 20px 0;
+}
+
+#possibilities article#escape {
+    background: no-repeat url(../img/evasion267x165.jpg);
+}
+
+#possibilities article#escape a, #possibilities article#adventure a {
+    margin-top: 29px;
+}
+
+#possibilities article#discover {
+    background: no-repeat url(../img/decouverte267x165.jpg);
+}
+
+#possibilities article#discover a {
+    margin-top: 10px;
+}
+
+#possibilities article#adventure {
+    background: no-repeat url(../img/aventure267x165.jpg);
+}
+
+
+.overlay {
+    margin-left: -1px;
+    font-size: 13px;
+    background: rgba(255,255,255, 0.97);
+    height: 84%;
+    width: 130px;
+    padding: 14px 10px 14px 15px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.overlay p {
+    line-height: 17px;
+    padding-bottom: 7px;
+}
+
+/* MAILING-LIST */
+
+#mailing-list, #mailing-list fieldset{
+    text-align: center;
+}
+
+#mailing-list form{
+    display: inline-block;
+    width: 600px;
+    margin: 30px 0 20px;
+}
+
+#mailing-list label {
+    display: none;
+}
+
+#mailing-list legend {
+    width: 100%;
+    border-bottom: 1px #02b8dd solid;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+}
+
+#mailing-list p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+
