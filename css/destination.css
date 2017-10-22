@@ -1,0 +1,197 @@
+/* TABLE DES OFFRES */
+.offresTable{
+    background-image:url(../img/sky.jpg);
+    background-repeat:no-repeat;
+    background-size: auto 100%;
+}
+
+.offresTable table{
+    border-collapse: collapse;
+    width:100%;
+    min-width: 50%;
+}
+
+.offresTable th{
+/*    background-image:url("img/decouverte.jpg");*/
+    height: 50px;
+    color: white;
+/*    background-color: rgba(255, 0, 0, 0.3);*/
+    border: 1px solid rgba(50, 50, 50, 0.5);
+    text-align: center;
+    padding-left: 10px;
+}
+
+.offresTable td{
+    height: 100px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+/*    background-color: white;*/
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.pic1{
+    background-image:url(../img/foto0.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic2{
+    background-image:url(../img/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: center;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic3{
+    background-image:url(../img/foto2.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic4{
+    background-image:url(../img/foto3.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic5{
+    background-image:url(../img/foto4.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic6{
+    background-image:url(../img/foto5.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic7{
+    background-image:url(../img/foto6.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    text-align: center;
+    filter: brightness(0.5);
+}
+
+.pic1:hover{
+    filter: brightness(1);
+}
+
+.pic2:hover{
+    filter: brightness(1);
+}
+
+.pic3:hover{
+    filter: brightness(1);
+}
+
+.pic4:hover{
+    filter: brightness(1);
+}
+
+.pic5:hover{
+    filter: brightness(1);
+}
+
+.pic6:hover{
+    filter: brightness(1);
+}
+
+.pic7:hover{
+    filter: brightness(1);
+}
+
+.navTR{
+    background-image:url(../img/evasion.jpg);
+}
+
+.TR1{
+    background-image: url(../img/foto0blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    color: white;
+}
+
+.TR2{
+    background-image: url(../img/foto1blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom;
+    color: white;
+}
+
+.TR3{
+    background-image: url(../img/foto2blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top;
+    color: white;
+/*    filter:blur(1px);*/
+}
+
+.TR4{
+    background-image:url(../img/foto3blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom;
+    color: white;
+}
+
+.TR5{
+    background-image:url(../img/foto4blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom;
+    color: white;
+}
+
+.TR6{
+    background-image:url(../img/foto5blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom;
+    color: white;
+}
+
+.TR7{
+    background-image:url(../img/foto6blur.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    color: white;
+}
+
+
+.offresTable tr:hover{
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+
+.offresTable a{
+    color: white;
+    font-size: 18pt;
+}
+
+.offresTable span{
+    text-shadow: 0px 0px 2px black;
+    color: white;
+}
+
+tr td:nth-child(2), tr th:nth-child(2) {
+    display: none;
+}

@@ -1,0 +1,363 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #444;
+}
+
+h2 {
+    color: white;
+    font-size: 55px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+
+.clear {
+    clear: both;
+}
+/* HEADER */
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav li {
+    float: left;
+    display: inline-block;
+}
+
+header nav li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+header nav li a:hover {
+    border-bottom: 3px #ff7a00 solid;
+}
+
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    background-image: url(../img/main-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 180px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    display: block;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ff7a00;
+    line-height: 50px;
+    border-radius: 4px;
+}
+
+.button-1:hover {
+    background-color: #02b8dd;
+}
+
+/* STEPS */
+
+#steps {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps ul {
+    margin: 80px auto;
+    text-align: center;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#steps ul li {
+    width: 300px;
+    display: inline-block;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url(../img/planifier_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#step-2 {
+    background: url(../img/organiser_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+#step-3 {
+    background: url(../img/voyager_flat.png) top;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+/* POSSIBILITIES */
+
+#possibilities {
+    background-color: #efefef;
+/*    padding: 20px 0;*/
+    text-align: center;
+}
+
+#possibilities article:first-child {
+    margin-top: 20px;
+/*    margin-right: 20px;*/
+}
+
+#possibilities article:nth-child(2) {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#possibilities article {
+    width: 267px;
+    height: 165px;
+    border-radius: 10px;
+    display: inline-block;
+/*    border: 1px green solid;*/
+    margin-bottom: 20px;
+}
+
+#possibilities article#escape {
+    background: no-repeat url(../img/evasion267x165.jpg);
+}
+
+#possibilities article#escape a, #possibilities article#adventure a {
+    margin-top: 29px;
+}
+
+#possibilities article#discover {
+    background: no-repeat url(../img/decouverte267x165.jpg);
+/*    margin: 0 103px;*/
+}
+
+#possibilities article#discover a {
+    margin-top: 10px;
+}
+
+#possibilities article#adventure {
+    background: no-repeat url(../img/aventure267x165.jpg);
+}
+
+.overlay {
+/*    margin-top: 10px;*/
+    margin-left: -1px;
+    font-size: 13px;
+    background: rgba(255,255,255, 0.97);
+    height: 83%;
+    width: 130px;
+    padding: 14px 10px 14px 15px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.overlay p {
+    
+    line-height: 17px;
+    padding-bottom: 7px;
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.button-2 {
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.button-2:hover {
+    background-color: #02b8dd;
+}
+
+#possibilities article:first-child {
+/*    margin-left: -30px;*/
+}
+
+/* MAILING-LIST */
+
+#mailing-list {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    clear: both;
+}
+
+fieldset {
+    border: none;
+}
+
+#newsletter fieldset legend{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+#mailing-list form {
+    text-align: center;
+    margin: 0;
+/*    height: 50px;   */
+}
+
+#mailing-list label {
+    display: none;
+}
+
+#mailing-list p {
+    padding-bottom: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+input[type="email"], input[type="text"], textarea {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: rgba(221,221,221,0.90);
+    
+}
+
+
+.button-3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    width: 100px;
+    border-radius: 0;
+}
+
+.button-3:hover {
+    color: white;
+    background-color: #444;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 10px;
+    background-color: #444;
+    clear: both;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+    padding: 15px 0 30px;
+}

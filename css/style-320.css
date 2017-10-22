@@ -1,0 +1,145 @@
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+    font-size: 2em;
+}
+
+header nav {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 35px;
+}
+
+header nav ul {
+/*    background-color: red;*/
+    text-align: right;
+    font-size: 10px;
+}
+
+header nav li {
+    line-height: 20px;
+    width: 120px;
+}
+
+header nav li a {
+    text-transform: uppercase;
+    width: 25%;
+    line-height: 12%;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-bottom: 2px;
+}
+
+header nav li a:hover {
+    border-bottom: 3px #ff7a00 solid;
+}
+
+/* MAIN IMAGE */
+
+#main-image {
+    background-image: url(../img/main-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+/*    margin-top: 0px;*/
+    padding-bottom: 20px;
+}
+
+#main-image h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+/*    padding: 180px 0 40px 0;*/
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.button-1 {
+    display: block;
+    color: white;
+    width: 70px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ff7a00;
+    line-height: 30px;
+    border-radius: 4px;
+}
+
+.button-1:hover {
+    background-color: #02b8dd;
+}
+
+#steps {
+/*
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+#steps .wrapper {
+    width: 100%;
+}
+
+#steps * {
+    margin: 0;
+    padding: 0;
+}
+
+#steps ul {
+    text-align: center;
+    
+    
+}
+
+#steps h4{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#steps p {
+    font-size: 9px;
+}
+
+#steps ul li {
+    float: left;
+    width: 25%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#steps ul li:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#step-1 {
+    background: url(../img/planifier_flat.png) top;
+    background-size: 40%;
+    margin-left: 7%;
+}
+
+#step-2 {
+    background: url(../img/organiser_flat.png) top;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#step-3 {
+    background: url(../img/voyager_flat.png) top;
+}
+
+#possibilities {
+    clear: both;
+}

@@ -1,0 +1,49 @@
+#description h2 {
+    margin-bottom: 60px;
+    padding-top: 80px;
+    color: #444;
+}
+
+#description h3 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ff7a00;
+    text-shadow:0 0 1px #777;
+    text-shadow: #777 1px 0 1px;
+    text-transform: uppercase;
+}
+
+#description h4 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#description p {
+    padding: 15px 0;
+    font-size: 17px;
+    text-align: justify
+}
+
+#description h4 {
+    display: list-item;
+    list-style: none;
+}
+
+.focus {
+    font-weight: bold;
+    font-variant: common-ligatures variant-caps;
+}
+
+#description li{
+    list-style: square;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
+
+#description h4:before {
+    content: "+ ";
+    color: #ff7a00;
+}

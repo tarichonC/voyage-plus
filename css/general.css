@@ -1,0 +1,61 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #444;
+}
+
+h2 {
+    color: white;
+    font-size: 55px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+fieldset {
+    border: none;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+
+.clear {
+    clear: both;
+}
