@@ -12,10 +12,11 @@ input[type="text"] {
     width: 504px;
 }
 
-#contact_form .button-3 {
-    float: right;
-    margin-right: 20px;
+#contact_form form {
+    width: 500px;
+    display: block;
 }
+
 
 #contact_form label {
 /*    display: block;*/
@@ -27,9 +28,10 @@ textearea {
 }
 
 #contact_form fieldset{
-    width: 400px;
+/*    width: 400px;*/
     margin: auto 0;
     padding: 0 auto;
+    display: inline-block;
 }
 
 #contact_form legend {
@@ -38,6 +40,7 @@ textearea {
     margin-top: 40px;
     text-transform: uppercase;
     text-align: center;
+    color: #444;
 }
 
 /*
@@ -51,7 +54,9 @@ textearea {
 #contact_form {
     text-align: center;
     margin: 0 auto 20px;
-    padding: 50px 165px;
+/*    padding: 50px 165px;*/
     padding-top: 50px;
     font-size: 18px;
+    width: 100%;
+    
 }
