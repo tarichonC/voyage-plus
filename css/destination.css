@@ -16,7 +16,7 @@
 }
 
 .offresTable th{
-/*    background-image:url("img/decouverte.jpg");*/
+    background-image:url("../img/main-image.jpg");
     height: 50px;
     color: white;
 /*    background-color: rgba(255, 0, 0, 0.3);*/
