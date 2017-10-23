@@ -8,7 +8,7 @@ input[type="text"] {
     margin-bottom: 8px;
 }
 
-#contact_form input[type="text"] {
+#contact_form input[type="text"], #contact_form input[type="mail"], textarea{
     width: 504px;
 }
 
@@ -19,7 +19,6 @@ input[type="text"] {
 
 
 #contact_form label {
-/*    display: block;*/
     float: left;
     line-height: 47px;
 }
