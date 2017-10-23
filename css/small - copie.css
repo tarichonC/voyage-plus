@@ -1,0 +1,35 @@
+nav {
+/*    margin-top: -400px;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+    text-align: right;
+}
+
+header nav li {
+    
+/*    width: 200px;*/
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    border: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+    background-color: #ccc;
+}
