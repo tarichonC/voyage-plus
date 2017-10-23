@@ -3,10 +3,17 @@ nav ul{
     flex-direction: column;
     flex-wrap: wrap;
     width: 200px;
-    height: 50px;
+    height: 70px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
 }
 
 nav li a{
-    line-height: 20px;
+    line-height: 35px;
     margin-top: 20px;
+}
+
+header nav li a:hover {
+    border:none;
 }
