@@ -9,6 +9,8 @@
     border-collapse: collapse;
     width:100%;
     min-width: 50%;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .offresTable th{
@@ -199,7 +201,7 @@ tr td:nth-child(2), tr th:nth-child(2) {
 }
 */
 
-@media (max-width: 500px){
+@media (max-width: 550px){
 
 .offresTable th:nth-child(2) {
     display: none;
