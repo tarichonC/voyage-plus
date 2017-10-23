@@ -192,8 +192,37 @@
     color: white;
 }
 
+
 /*
 tr td:nth-child(2), tr th:nth-child(2) {
     display: none;
 }
 */
+
+@media (max-width: 500px){
+
+.offresTable th:nth-child(2) {
+    display: none;
+}
+
+.offresTable th:nth-child(3){
+     display: none;
+}
+
+.offresTable th:nth-child(4){
+     display: none;
+}
+    
+.offresTable td:nth-child(2) {
+display: none;
+}
+    
+.offresTable td:nth-child(3) {
+display: none;
+}
+    
+.offresTable td:nth-child(4) {
+display: none;
+}
+    
+}
