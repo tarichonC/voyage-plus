@@ -1,4 +1,15 @@
+/* Definitions des règles de style pour les petits écrans */
+
+
 @media screen and (max-width: 670px) and (min-width: 421px) {
+    
+    /* 
+        Redéfinition des règles du menu de navigation qui passe 
+        d'un mene en ligne -- -- -- -- 
+    
+        à un menu en 2 colonnes  -- --
+                                 -- -- 
+    */
 
     nav ul{
         display: flex;
@@ -25,6 +36,9 @@
     
     
 }
+
+
+/* Redéfinition des éléments de formulaire pour s'adapter à une petite taille */
 
 @media screen and (max-width: 680px) {
     
@@ -60,6 +74,8 @@
     
 }
 
+
+/* Redéfinition des éléments de l'index */
 @media screen and (max-width: 420px) {
     
     #main-image h2 {

@@ -1,3 +1,5 @@
+/* Regles de style associées à la page description.html et descriptionbis.html */
+
 #description h2 {
     margin-bottom: 60px;
     padding-top: 80px;
@@ -43,7 +45,7 @@
     padding-bottom: 4px;
 }
 
-#description h4:before {
+#description h4:before {   /* Permet d'ajouter le caractère + en orange devant chaque h4 */
     content: "+ ";
     color: #ff7a00;
 }

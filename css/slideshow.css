@@ -30,7 +30,7 @@
         margin: 0;            
         padding: 0;
 
-        /*CSS3 keyframes animation*/
+        /* CSS3 keyframes animation */
         animation-name: AutoSlide;
         animation-duration: 20s;
         animation-iteration-count: infinite;

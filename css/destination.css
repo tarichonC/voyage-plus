@@ -1,3 +1,5 @@
+/* Styles associés à la page destination.html */
+
 /* TABLE DES OFFRES */
 .offresTable{
     background-image:url(../img/sky.jpg);
@@ -193,13 +195,6 @@
     text-shadow: 0px 0px 2px black;
     color: white;
 }
-
-
-/*
-tr td:nth-child(2), tr th:nth-child(2) {
-    display: none;
-}
-*/
 
 @media (max-width: 550px){
 

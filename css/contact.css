@@ -1,3 +1,5 @@
+/* Regles de style associées à la page contact.html */
+
 input[type="text"] {
     width: 500px;
 }
@@ -6,9 +8,6 @@ input[type="text"] {
     display: block;
     margin-left: 120px;
     margin-bottom: 8px;
-}
-
-#contact_form input[type="text"], #contact_form input[type="mail"], textarea{
     width: 504px;
 }
 
@@ -23,11 +22,7 @@ input[type="text"] {
     line-height: 47px;
 }
 
-textearea {
-}
-
 #contact_form fieldset{
-/*    width: 400px;*/
     margin: auto 0;
     padding: 0 auto;
     display: inline-block;
@@ -42,18 +37,9 @@ textearea {
     color: #444;
 }
 
-/*
-#gradient {
-    background: linear-gradient(white 40%, white 35%);  
-    background-repeat: no-repeat;
-    height: 100%;
-}
-*/
-
 #contact_form {
     text-align: center;
     margin: 0 auto 20px;
-/*    padding: 50px 165px;*/
     padding-top: 50px;
     font-size: 18px;
     width: 100%;
